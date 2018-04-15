@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GBK" standalone="yes" ?>
+
+<GameBabyConfig __version="1">
+
+    <GameName>League of Legends.exe</GameName>
+	
+	<LobbyCnt>1</LobbyCnt>
+    <LobbyName>LeagueClient.exe</LobbyName>
+
+	<IgnoreDllCnt>2</IgnoreDllCnt>
+	<IgnoreDlls>LogitechGkey.dll</IgnoreDlls>	
+	<IgnoreDlls>LogitechLed.dll</IgnoreDlls>
+</GameBabyConfig>

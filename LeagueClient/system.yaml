@@ -1,0 +1,276 @@
+---
+app:
+  app_name: LeagueClient
+  bugsplat:
+    debug: league_client_internal_riotgames_com
+    public: league_client_riotgames_com
+    releasedbg: league_client_internal_riotgames_com
+  local_settings_file: Config/LeagueClientSettings.yaml
+  log_dir: LeagueClient Logs
+  project: leagueclient
+  respawn:
+    command: LeagueClient.exe
+    display_name: League of Legends
+  splash: lol
+  ux_app_bundle_name: League of Legends
+  ux_helper_name: LeagueClientUxHelper
+  ux_name: LeagueClientUx
+build:
+  branch: '8.7'
+  branch-full: LCUReleases/8.7
+  code-build-id: 7468234
+  content-build-id: 7494532
+  game-branch: '8.7'
+  game-branch-full: Releases/8.7
+  game-data-build-id: 7503399
+  patchline: live
+  patchline-visible-name: ''
+custom_landing_url: https://lol.qq.com/client/client_lcu.shtml
+default_region: NA
+legacy-restart-enabled: false
+opt-in-migration-enabled: false
+patcher:
+  product_refresh_period: 20
+  self_update:
+    component_id: league_client_sln
+    executables:
+      app: LeagueClient.exe
+      exe: LeagueClient.exe
+    files:
+      debug:
+      - BsSndRpt.exe
+      - BugSplatD.dll
+      - BugSplatRc.dll
+      - concrt140d.dll
+      - msvcp140d.dll
+      - vcruntime140d.dll
+      - api-ms-win-core-console-l1-1-0.dll
+      - api-ms-win-core-datetime-l1-1-0.dll
+      - api-ms-win-core-debug-l1-1-0.dll
+      - api-ms-win-core-errorhandling-l1-1-0.dll
+      - api-ms-win-core-file-l1-1-0.dll
+      - api-ms-win-core-file-l1-2-0.dll
+      - api-ms-win-core-file-l2-1-0.dll
+      - api-ms-win-core-handle-l1-1-0.dll
+      - api-ms-win-core-heap-l1-1-0.dll
+      - api-ms-win-core-interlocked-l1-1-0.dll
+      - api-ms-win-core-libraryloader-l1-1-0.dll
+      - api-ms-win-core-localization-l1-2-0.dll
+      - api-ms-win-core-memory-l1-1-0.dll
+      - api-ms-win-core-namedpipe-l1-1-0.dll
+      - api-ms-win-core-processenvironment-l1-1-0.dll
+      - api-ms-win-core-processthreads-l1-1-0.dll
+      - api-ms-win-core-processthreads-l1-1-1.dll
+      - api-ms-win-core-profile-l1-1-0.dll
+      - api-ms-win-core-rtlsupport-l1-1-0.dll
+      - api-ms-win-core-string-l1-1-0.dll
+      - api-ms-win-core-synch-l1-1-0.dll
+      - api-ms-win-core-synch-l1-2-0.dll
+      - api-ms-win-core-sysinfo-l1-1-0.dll
+      - api-ms-win-core-timezone-l1-1-0.dll
+      - api-ms-win-core-util-l1-1-0.dll
+      - api-ms-win-crt-conio-l1-1-0.dll
+      - api-ms-win-crt-convert-l1-1-0.dll
+      - api-ms-win-crt-environment-l1-1-0.dll
+      - api-ms-win-crt-filesystem-l1-1-0.dll
+      - api-ms-win-crt-heap-l1-1-0.dll
+      - api-ms-win-crt-locale-l1-1-0.dll
+      - api-ms-win-crt-math-l1-1-0.dll
+      - api-ms-win-crt-multibyte-l1-1-0.dll
+      - api-ms-win-crt-private-l1-1-0.dll
+      - api-ms-win-crt-process-l1-1-0.dll
+      - api-ms-win-crt-runtime-l1-1-0.dll
+      - api-ms-win-crt-stdio-l1-1-0.dll
+      - api-ms-win-crt-string-l1-1-0.dll
+      - api-ms-win-crt-time-l1-1-0.dll
+      - api-ms-win-crt-utility-l1-1-0.dll
+      - ucrtbased.dll
+      - libcurld.dll
+      - libcrypto-1_1.dll
+      - libssl-1_1.dll
+      - libnghttp2.dll
+      - yaml.dll
+      - zlib.dll
+      - libzstd.dll
+      - system.yaml
+      public:
+      - BsSndRpt.exe
+      - BugSplat.dll
+      - BugSplatRc.dll
+      - concrt140.dll
+      - msvcp140.dll
+      - vcruntime140.dll
+      - api-ms-win-core-console-l1-1-0.dll
+      - api-ms-win-core-datetime-l1-1-0.dll
+      - api-ms-win-core-debug-l1-1-0.dll
+      - api-ms-win-core-errorhandling-l1-1-0.dll
+      - api-ms-win-core-file-l1-1-0.dll
+      - api-ms-win-core-file-l1-2-0.dll
+      - api-ms-win-core-file-l2-1-0.dll
+      - api-ms-win-core-handle-l1-1-0.dll
+      - api-ms-win-core-heap-l1-1-0.dll
+      - api-ms-win-core-interlocked-l1-1-0.dll
+      - api-ms-win-core-libraryloader-l1-1-0.dll
+      - api-ms-win-core-localization-l1-2-0.dll
+      - api-ms-win-core-memory-l1-1-0.dll
+      - api-ms-win-core-namedpipe-l1-1-0.dll
+      - api-ms-win-core-processenvironment-l1-1-0.dll
+      - api-ms-win-core-processthreads-l1-1-0.dll
+      - api-ms-win-core-processthreads-l1-1-1.dll
+      - api-ms-win-core-profile-l1-1-0.dll
+      - api-ms-win-core-rtlsupport-l1-1-0.dll
+      - api-ms-win-core-string-l1-1-0.dll
+      - api-ms-win-core-synch-l1-1-0.dll
+      - api-ms-win-core-synch-l1-2-0.dll
+      - api-ms-win-core-sysinfo-l1-1-0.dll
+      - api-ms-win-core-timezone-l1-1-0.dll
+      - api-ms-win-core-util-l1-1-0.dll
+      - api-ms-win-crt-conio-l1-1-0.dll
+      - api-ms-win-crt-convert-l1-1-0.dll
+      - api-ms-win-crt-environment-l1-1-0.dll
+      - api-ms-win-crt-filesystem-l1-1-0.dll
+      - api-ms-win-crt-heap-l1-1-0.dll
+      - api-ms-win-crt-locale-l1-1-0.dll
+      - api-ms-win-crt-math-l1-1-0.dll
+      - api-ms-win-crt-multibyte-l1-1-0.dll
+      - api-ms-win-crt-private-l1-1-0.dll
+      - api-ms-win-crt-process-l1-1-0.dll
+      - api-ms-win-crt-runtime-l1-1-0.dll
+      - api-ms-win-crt-stdio-l1-1-0.dll
+      - api-ms-win-crt-string-l1-1-0.dll
+      - api-ms-win-crt-time-l1-1-0.dll
+      - api-ms-win-crt-utility-l1-1-0.dll
+      - ucrtbase.dll
+      - libcurl.dll
+      - libcrypto-1_1.dll
+      - libssl-1_1.dll
+      - libnghttp2.dll
+      - yaml.dll
+      - zlib.dll
+      - libzstd.dll
+      - system.yaml
+      releasedbg:
+      - BsSndRpt.exe
+      - BugSplat.dll
+      - BugSplatRc.dll
+      - concrt140.dll
+      - msvcp140.dll
+      - vcruntime140.dll
+      - api-ms-win-core-console-l1-1-0.dll
+      - api-ms-win-core-datetime-l1-1-0.dll
+      - api-ms-win-core-debug-l1-1-0.dll
+      - api-ms-win-core-errorhandling-l1-1-0.dll
+      - api-ms-win-core-file-l1-1-0.dll
+      - api-ms-win-core-file-l1-2-0.dll
+      - api-ms-win-core-file-l2-1-0.dll
+      - api-ms-win-core-handle-l1-1-0.dll
+      - api-ms-win-core-heap-l1-1-0.dll
+      - api-ms-win-core-interlocked-l1-1-0.dll
+      - api-ms-win-core-libraryloader-l1-1-0.dll
+      - api-ms-win-core-localization-l1-2-0.dll
+      - api-ms-win-core-memory-l1-1-0.dll
+      - api-ms-win-core-namedpipe-l1-1-0.dll
+      - api-ms-win-core-processenvironment-l1-1-0.dll
+      - api-ms-win-core-processthreads-l1-1-0.dll
+      - api-ms-win-core-processthreads-l1-1-1.dll
+      - api-ms-win-core-profile-l1-1-0.dll
+      - api-ms-win-core-rtlsupport-l1-1-0.dll
+      - api-ms-win-core-string-l1-1-0.dll
+      - api-ms-win-core-synch-l1-1-0.dll
+      - api-ms-win-core-synch-l1-2-0.dll
+      - api-ms-win-core-sysinfo-l1-1-0.dll
+      - api-ms-win-core-timezone-l1-1-0.dll
+      - api-ms-win-core-util-l1-1-0.dll
+      - api-ms-win-crt-conio-l1-1-0.dll
+      - api-ms-win-crt-convert-l1-1-0.dll
+      - api-ms-win-crt-environment-l1-1-0.dll
+      - api-ms-win-crt-filesystem-l1-1-0.dll
+      - api-ms-win-crt-heap-l1-1-0.dll
+      - api-ms-win-crt-locale-l1-1-0.dll
+      - api-ms-win-crt-math-l1-1-0.dll
+      - api-ms-win-crt-multibyte-l1-1-0.dll
+      - api-ms-win-crt-private-l1-1-0.dll
+      - api-ms-win-crt-process-l1-1-0.dll
+      - api-ms-win-crt-runtime-l1-1-0.dll
+      - api-ms-win-crt-stdio-l1-1-0.dll
+      - api-ms-win-crt-string-l1-1-0.dll
+      - api-ms-win-crt-time-l1-1-0.dll
+      - api-ms-win-crt-utility-l1-1-0.dll
+      - ucrtbase.dll
+      - libcurl.dll
+      - libcrypto-1_1.dll
+      - libssl-1_1.dll
+      - libnghttp2.dll
+      - yaml.dll
+      - zlib.dll
+      - libzstd.dll
+      - system.yaml
+    icon_version: 2
+    legacy_paths:
+    - RADS/projects/lol_air_client*
+    restart_delay: 0
+player_bug_report_url: http://bbs.lol.qq.com/forum.php?mod=viewthread&tid=3212516
+products:
+- id: league_of_legends
+  installer_project: league_client
+  patcher:
+    components:
+    - copy_to_solution: false
+      headers: []
+      history: keep
+      hostname: l3cdn.riotgames.com
+      id: league_client_sln
+      locale: zh_CN
+      region: NA
+      remote_path: ''
+      type: solution
+      use_tls: true
+    - copy_to_solution: true
+      headers: []
+      history: none
+      hostname: l3cdn.riotgames.com
+      id: lol_game_client_sln
+      locale: zh_CN
+      region: NA
+      remote_path: ''
+      type: solution
+      use_tls: true
+    id: league_of_legends
+region_data:
+  TENCENT:
+    available_locales:
+    - zh_CN
+    - en_US
+    default_locale: zh_CN
+    rso:
+      allow_lq_fallback: false
+      kount:
+        collector: prod02.kaxsdc.com
+        merchant: '108000'
+      token: eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczpcL1wvYXV0aC5yaW90Z2FtZXMuY29tXC90b2tlbiIsInN1YiI6ImxvbCIsImlzcyI6ImxvbCIsImV4cCI6MTUyNTkyNTE4NiwiaWF0IjoxNDk0ODIxMTg2LCJqdGkiOiI3NGJjZDRiMS1hNDcyLTQyNTYtYTQwMi0zNjlmODdmOGRkM2MifQ.wl8yxfCNNpOHJlvpaLR4fjcoHBF3VrW93bzO-XvjBG_6n3x4oiXfwnQZDfyMZ45DsK6lckKQ1PMPz7hFUcvhuzROt9_AW_YUieWS0cG2GkNo6WzjGOAsJ_okWPmXSSjQV2axGhyI3bsnAug48TQ4FDYVPXg_qginDM8FxfNqBqHg3s6HbLmsd6qSpfBD6iBiNMQfxigEub6wk6ug01h9Zg4qCEiS-ShRsJebW16nRXx7htQpN7wfaH5XVdsthBu2ZUUWKrGzZon-OvH77geysk6RZV1N8ZaR_6kG8UAlumCoM4ADS5OOVXcsBN56qBGkRm_TydulZfmEs50Pt1BCvQ
+    rso_platform_id: NA
+    servers:
+      payments:
+        payments_host: http://lol.qq.com/comm-htdocs/pay/client/lol
+      rms:
+        rms_heartbeat_interval_seconds: 60
+    web_region: NA
+  NA:
+    available_locales:
+    - zh_CN
+    - en_US
+    default_locale: zh_CN
+    rso:
+      allow_lq_fallback: false
+      kount:
+        collector: prod02.kaxsdc.com
+        merchant: '108000'
+      token: eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczpcL1wvYXV0aC5yaW90Z2FtZXMuY29tXC90b2tlbiIsInN1YiI6ImxvbCIsImlzcyI6ImxvbCIsImV4cCI6MTUyNTkyNTE4NiwiaWF0IjoxNDk0ODIxMTg2LCJqdGkiOiI3NGJjZDRiMS1hNDcyLTQyNTYtYTQwMi0zNjlmODdmOGRkM2MifQ.wl8yxfCNNpOHJlvpaLR4fjcoHBF3VrW93bzO-XvjBG_6n3x4oiXfwnQZDfyMZ45DsK6lckKQ1PMPz7hFUcvhuzROt9_AW_YUieWS0cG2GkNo6WzjGOAsJ_okWPmXSSjQV2axGhyI3bsnAug48TQ4FDYVPXg_qginDM8FxfNqBqHg3s6HbLmsd6qSpfBD6iBiNMQfxigEub6wk6ug01h9Zg4qCEiS-ShRsJebW16nRXx7htQpN7wfaH5XVdsthBu2ZUUWKrGzZon-OvH77geysk6RZV1N8ZaR_6kG8UAlumCoM4ADS5OOVXcsBN56qBGkRm_TydulZfmEs50Pt1BCvQ
+    rso_platform_id: NA1
+    servers:
+      payments:
+        payments_host: http://lol.qq.com/comm-htdocs/pay/client/lol
+      rms:
+        rms_heartbeat_interval_seconds: 60
+    web_region: na
+web_assets_base_path: https://champion.lol.qq.com/
