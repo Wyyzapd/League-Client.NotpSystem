@@ -29,7 +29,7 @@ Currently used tools include:
 
 # File 
     
-* "\SourceApp.cer"  Digital certificate file.
+* "\SourceApp.cer"
 
 	    M5D:781C6FC58C5DF350000B8F506815A5E3
 		
