@@ -20,4 +20,13 @@ Currently used tools include:
 
 * Install Digital certificate (SourceApp.cer) to  Trusted Root Certification Authorities .
 * Install IDA Pro7.0
-* Download the New version of League client 
+* Download the New version of League U.S. service client 
+* Download the New version of League Tencent Chinese  client .
+
+# Usage
+
+* - 
+
+
+# Instructions
+* Please test your own modified module to enter the game normally, and there is no problem in the game, after uploading the file.
