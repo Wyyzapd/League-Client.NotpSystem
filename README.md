@@ -6,7 +6,9 @@ Remove: ZH-CN Tencent Protect System of League Client.
 
 # Contributing
 People who are interested in this project are welcome to participate in the amendment.
+
 Currently used technologies include:
+
 * Disassembly
 
 Currently used tools include:
