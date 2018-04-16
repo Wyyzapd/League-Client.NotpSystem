@@ -20,3 +20,4 @@ Currently used tools include:
 
 * Install Digital certificate (SourceApp.cer) to  Trusted Root Certification Authorities .
 * Install IDA Pro7.0
+* Download the New version of League client 
